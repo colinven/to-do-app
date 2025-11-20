@@ -12,7 +12,7 @@ function addTask(){
     li.innerText = inputBox.value;
     listContainer.appendChild(li);
     let span = document.createElement('span');
-    span.innerHTML = '<img src="/images/remove.png">'
+    span.innerHTML = '<img src="./images/remove.png">'
     li.appendChild(span);
     inputBox.value = '';
     saveData();
